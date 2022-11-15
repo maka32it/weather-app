@@ -84,10 +84,14 @@ main{
       flex-direction: column;
       justify-content: space-around;
       gap: 30px;
-      font-size: 20px;
+      font-size: 50px;
   }
   .container{
     margin-top: 50px;
+  }
+  .name{
+    font-size: 25px;
+    text-align: center;
   }
 }
 
