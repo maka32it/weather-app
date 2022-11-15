@@ -94,6 +94,16 @@ main{
     text-align: center;
   }
 }
+@media screen and (max-width : 500px) {
+  .location-container .location{
+    font-size: 40px;
+
+  }
+  .location-container .location-date{
+    font-size: 25px;
+  }
+}
+
 
 
 
