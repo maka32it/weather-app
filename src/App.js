@@ -16,12 +16,11 @@ function App() {
 }
   function search(e){
     if(e.key === 'Enter'){
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&APPID=${api.api}`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&APPID=${api.api}`)
         .then(res=> res.json())
         .then(data =>{
           setWeather(data)
           setInputValue('')
-          console.log(data)
         } )
          
     }
